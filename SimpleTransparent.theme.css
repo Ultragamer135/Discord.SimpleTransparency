@@ -1,15 +1,22 @@
 /**
  * @name Super Simple Transparent
  * @author Ultragamer135
- * @version 1.0
+ * @version 1.1
  * @description Super simple background transparency, nothing else.
  */
 
 :root { 
-    --app-bg: rgba(0,0,0,.5);
+    --app-bg: rgba(0,0,0,0);
 }
 
-body{
+/* Borders */
+.peopleListItem_cc6179 /* Friend list items */
+{ border: none; }
+
+/* The rest of the borders */
+* { border-color: rgba(200,200,200,0.1) !important; }
+
+body {
     background-color: var(--app-bg) !important;
 }
 
@@ -38,7 +45,9 @@ body{
 .visual-refresh .content__908e2 /*Divider*/,
 .chatGradient__36d07, .chatTypingGradientNotAtBottom__36d07, .chatTypingGradientAtBottom__36d07 /* Chatbox gradient */,
 .container__7641b /* Thread member list */,
-.channelChatWrapper_cb9592, .wrapper_cb9592 /* Voice Chat message panel */ {
+.channelChatWrapper_cb9592, .wrapper_cb9592 /* Voice Chat message panel */
+.sidebarList__5e434, .sidebar__5e434:after /* Sidebar */
+{
     background-color: transparent !important;
     background: transparent !important;
 }
