@@ -1,0 +1,44 @@
+/**
+ * @name Super Simple Transparent
+ * @author Ultragamer135
+ * @version 1.0
+ * @description Super simple background transparency, nothing else.
+ */
+
+:root { 
+    --app-bg: rgba(0,0,0,.5);
+}
+
+body{
+    background-color: var(--app-bg) !important;
+}
+
+.app__160d8,
+.bg__960e4,
+.appMount__51fd7,
+.wrapper_ef3116,
+.visual-refresh .chat_f75fb0,
+.chatContent_f75fb0, /*Server Chat*/
+.scroller__99e7c, .privateChannels_e6b769, /*DMs Sidebar*/
+.themed__9293f, .nowPlayingColumn__133bf, /*DMs misc*/
+.visual-refresh .tabBody__133bf, 
+.container__7d20c,
+.container__133bf,
+#app-mount .container__2637a, .sidebar_c48ade /*Server Sidebar*/,
+.visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
+:where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
+.visual-refresh .container_f369db, /* Forum */
+.panels_c48ade, .container__37e49, /*User Profile*/
+.visual-refresh .sidebar_c48ade:after,
+.scroller__23746, .container__551b0, .theme-light .gradient_e9ef78, .backdrop__8a7fc /*Discovery*/,
+.visual-refresh .contentRegionScroller__23e6b, .visual-refresh .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b, .contentRegion__23e6b, .layer__960e4 /*Settings*/, 
+.fieldList__1fed1,
+.children__9293f:after,
+.visual-refresh .wrapper_d852db, .visual-refresh .wrapper_fc8177 /* Skeleton loading */,
+.visual-refresh .content__908e2 /*Divider*/,
+.chatGradient__36d07, .chatTypingGradientNotAtBottom__36d07, .chatTypingGradientAtBottom__36d07 /* Chatbox gradient */,
+.container__7641b /* Thread member list */,
+.channelChatWrapper_cb9592, .wrapper_cb9592 /* Voice Chat message panel */ {
+    background-color: transparent !important;
+    background: transparent !important;
+}
